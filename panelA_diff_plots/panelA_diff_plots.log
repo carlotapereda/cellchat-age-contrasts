@@ -1,0 +1,76 @@
+[INFO] Loaded CellChat
+[INFO] Current dir: /Users/carlotapereda/Library/CloudStorage/Box-Box/~~~~MyFolder/~~MyLab/R_YadongMouseAPOE4/CC_updatedDB/final_code
+[INFO] Will load: CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[LOAD] cellchat.F06E33 <- CC_DBv2_Female_06Mo_E33.rds
+[LOAD] cellchat.F06E44 <- CC_DBv2_Female_06Mo_E44.rds
+[LOAD] cellchat.F12E33 <- CC_DBv2_Female_12Mo_E33.rds
+[LOAD] cellchat.F12E44 <- CC_DBv2_Female_12Mo_E44.rds
+[LOAD] cellchat.F18E33 <- CC_DBv2_Female_18Mo_E33.rds
+[LOAD] cellchat.F18E44 <- CC_DBv2_Female_18Mo_E44.rds
+[LOAD] cellchat.M06E33 <- CC_DBv2_Male_06Mo_E33.rds
+[LOAD] cellchat.M06E44 <- CC_DBv2_Male_06Mo_E44.rds
+[LOAD] cellchat.M12E33 <- CC_DBv2_Male_12Mo_E33.rds
+[LOAD] cellchat.M12E44 <- CC_DBv2_Male_12Mo_E44.rds
+[LOAD] cellchat.M18E33 <- CC_DBv2_Male_18Mo_E33.rds
+[LOAD] cellchat.M18E44 <- CC_DBv2_Male_18Mo_E44.rds
+[INFO] All CellChat objects loaded and updated
+[INFO] Sourced netDiffinteraction_adapted.R
+[MERGE] Building ME3
+[MERGE] Done ME3
+[MERGE] Building FE3
+[MERGE] Done FE3
+[MERGE] Building ME4
+[MERGE] Done ME4
+[MERGE] Building FE4
+[MERGE] Done FE4
+[CLEANUP] Removed temporary object lists
+[INFO] Output directory ready: panelA_diff_plots
+[PLOT] ME3: 06 vs 12 -> netDiff_ME3_M06E33_vs_M12E33.png
+null device 
+          1 
+[SAVED] netDiff_ME3_M06E33_vs_M12E33.png
+[PLOT] ME3: 12 vs 18 -> netDiff_ME3_M12E33_vs_M18E33.png
+null device 
+          1 
+[SAVED] netDiff_ME3_M12E33_vs_M18E33.png
+[PLOT] ME3: 06 vs 18 -> netDiff_ME3_M06E33_vs_M18E33.png
+null device 
+          1 
+[SAVED] netDiff_ME3_M06E33_vs_M18E33.png
+[PLOT] FE3: 06 vs 12 -> netDiff_FE3_F06E33_vs_F12E33.png
+null device 
+          1 
+[SAVED] netDiff_FE3_F06E33_vs_F12E33.png
+[PLOT] FE3: 12 vs 18 -> netDiff_FE3_F12E33_vs_F18E33.png
+null device 
+          1 
+[SAVED] netDiff_FE3_F12E33_vs_F18E33.png
+[PLOT] FE3: 06 vs 18 -> netDiff_FE3_F06E33_vs_F18E33.png
+null device 
+          1 
+[SAVED] netDiff_FE3_F06E33_vs_F18E33.png
+[PLOT] ME4: 06 vs 12 -> netDiff_ME4_M06E44_vs_M12E44.png
+null device 
+          1 
+[SAVED] netDiff_ME4_M06E44_vs_M12E44.png
+[PLOT] ME4: 12 vs 18 -> netDiff_ME4_M12E44_vs_M18E44.png
+null device 
+          1 
+[SAVED] netDiff_ME4_M12E44_vs_M18E44.png
+[PLOT] ME4: 06 vs 18 -> netDiff_ME4_M06E44_vs_M18E44.png
+null device 
+          1 
+[SAVED] netDiff_ME4_M06E44_vs_M18E44.png
+[PLOT] FE4: 06 vs 12 -> netDiff_FE4_F06E44_vs_F12E44.png
+null device 
+          1 
+[SAVED] netDiff_FE4_F06E44_vs_F12E44.png
+[PLOT] FE4: 12 vs 18 -> netDiff_FE4_F12E44_vs_F18E44.png
+null device 
+          1 
+[SAVED] netDiff_FE4_F12E44_vs_F18E44.png
+[PLOT] FE4: 06 vs 18 -> netDiff_FE4_F06E44_vs_F18E44.png
+null device 
+          1 
+[SAVED] netDiff_FE4_F06E44_vs_F18E44.png
+[DONE] All Panel A plots generated and saved

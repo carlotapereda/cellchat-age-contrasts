@@ -1,0 +1,14 @@
+[INFO] Libraries loaded (tidyverse, ComplexHeatmap, dplyr, colorRamp2, CellChat)
+[INFO] Found 12 CC files in cwd: CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[INFO] Using (ordered): CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[INFO] Current dir: /Users/carlotapereda/Library/CloudStorage/Box-Box/~~~~MyFolder/~~MyLab/R_YadongMouseAPOE4/CC_updatedDB/final_code
+[INFO] Will load: CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[INFO] All CellChat objects loaded and updated
+[DEBUG] Loaded objects:
+cellchat.FE306, cellchat.FE312, cellchat.FE318, cellchat.FE406, cellchat.FE412, cellchat.FE418, cellchat.ME306, cellchat.ME312, cellchat.ME318, cellchat.ME406, cellchat.ME412, cellchat.ME418
+[CONFIG] Setting column orders, labels, and colors
+[SAVE] panelC_combined_heatmap (PNG)
+null device 
+          1 
+[DONE] panelC_combined_heatmap.png
+[DONE] All heatmaps generated and saved to /Users/carlotapereda/Library/CloudStorage/Box-Box/~~~~MyFolder/~~MyLab/R_YadongMouseAPOE4/CC_updatedDB/final_code/panelC_heatmap_LR_plots

@@ -1,0 +1,62 @@
+[INFO] Libraries loaded (tidyverse, ComplexHeatmap, dplyr, colorRamp2, CellChat)
+[INFO] Found 12 CC files in cwd: CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[INFO] Using (ordered): CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[INFO] Current dir: /Users/carlotapereda/Library/CloudStorage/Box-Box/~~~~MyFolder/~~MyLab/R_YadongMouseAPOE4/CC_updatedDB/final_code
+[INFO] Will load: CC_DBv2_Female_06Mo_E33.rds, CC_DBv2_Female_06Mo_E44.rds, CC_DBv2_Female_12Mo_E33.rds, CC_DBv2_Female_12Mo_E44.rds, CC_DBv2_Female_18Mo_E33.rds, CC_DBv2_Female_18Mo_E44.rds, CC_DBv2_Male_06Mo_E33.rds, CC_DBv2_Male_06Mo_E44.rds, CC_DBv2_Male_12Mo_E33.rds, CC_DBv2_Male_12Mo_E44.rds, CC_DBv2_Male_18Mo_E33.rds, CC_DBv2_Male_18Mo_E44.rds
+[INFO] All CellChat objects loaded and updated
+[DEBUG] Loaded objects:
+cellchat.FE306, cellchat.FE312, cellchat.FE318, cellchat.FE406, cellchat.FE412, cellchat.FE418, cellchat.ME306, cellchat.ME312, cellchat.ME318, cellchat.ME406, cellchat.ME412, cellchat.ME418
+[CONFIG] Setting column orders, labels, and colors
+[HELPERS] Registering helper functions
+[STEP] Building df_12_06
+[PAIR] Female E33 12Mo vs 06Mo -> nrows=159
+[PAIR] Completed Female E33 12Mo vs 06Mo -> kept=90
+[PAIR] Female E44 12Mo vs 06Mo -> nrows=164
+[PAIR] Completed Female E44 12Mo vs 06Mo -> kept=86
+[PAIR] Male E33 12Mo vs 06Mo -> nrows=148
+[PAIR] Completed Male E33 12Mo vs 06Mo -> kept=89
+[PAIR] Male E44 12Mo vs 06Mo -> nrows=167
+[PAIR] Completed Male E44 12Mo vs 06Mo -> kept=91
+[INFO] df_12_06 rows: 356
+[MATRIX] Input rows: 356
+[MATRIX] Final matrix dim: 28 x 24
+[COLFUN] vmax (98th pct): 6.747
+[SAVE] heatmap_log2FC_12_vs_06 (PNG)
+null device 
+          1 
+[DONE] heatmap_log2FC_12_vs_06.png
+[STEP] Building df_18_12
+[PAIR] Female E33 18Mo vs 12Mo -> nrows=165
+[PAIR] Completed Female E33 18Mo vs 12Mo -> kept=89
+[PAIR] Female E44 18Mo vs 12Mo -> nrows=168
+[PAIR] Completed Female E44 18Mo vs 12Mo -> kept=87
+[PAIR] Male E33 18Mo vs 12Mo -> nrows=163
+[PAIR] Completed Male E33 18Mo vs 12Mo -> kept=89
+[PAIR] Male E44 18Mo vs 12Mo -> nrows=172
+[PAIR] Completed Male E44 18Mo vs 12Mo -> kept=90
+[INFO] df_18_12 rows: 355
+[MATRIX] Input rows: 355
+[MATRIX] Final matrix dim: 27 x 24
+[COLFUN] vmax (98th pct): 5.548
+[SAVE] heatmap_log2FC_18_vs_12 (PNG)
+null device 
+          1 
+[DONE] heatmap_log2FC_18_vs_12.png
+[STEP] Building df_18_06
+[PAIR] Female E33 18Mo vs 06Mo -> nrows=164
+[PAIR] Completed Female E33 18Mo vs 06Mo -> kept=91
+[PAIR] Female E44 18Mo vs 06Mo -> nrows=160
+[PAIR] Completed Female E44 18Mo vs 06Mo -> kept=84
+[PAIR] Male E33 18Mo vs 06Mo -> nrows=149
+[PAIR] Completed Male E33 18Mo vs 06Mo -> kept=90
+[PAIR] Male E44 18Mo vs 06Mo -> nrows=163
+[PAIR] Completed Male E44 18Mo vs 06Mo -> kept=87
+[INFO] df_18_06 rows: 352
+[MATRIX] Input rows: 352
+[MATRIX] Final matrix dim: 28 x 24
+[COLFUN] vmax (98th pct): 6.45
+[SAVE] heatmap_log2FC_18_vs_06 (PNG)
+null device 
+          1 
+[DONE] heatmap_log2FC_18_vs_06.png
+[DONE] All heatmaps generated and saved to /Users/carlotapereda/Library/CloudStorage/Box-Box/~~~~MyFolder/~~MyLab/R_YadongMouseAPOE4/CC_updatedDB/final_code/panelB_heatmap_pathway_plots
