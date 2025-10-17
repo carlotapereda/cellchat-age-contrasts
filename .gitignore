@@ -1,7 +1,7 @@
 # R / RStudio
 .Rproj.user/
 .Rhistory
-.RData
+.RData/
 .Ruserdata
 *.Rproj
 
@@ -12,12 +12,16 @@ Thumbs.db
 .idea/
 
 # Generated outputs & logs
-*.png
-*.pdf
-*.log
+# Keep folders ignored by default…
 panelA_diff_plots/
 panelB_heatmap_pathway_plots/
 panelC_heatmap_LR_plots/
 
-# Temp
-*.tmp
+# …but DO track PNG and log files inside them (even in nested subdirs)
+!panelA_diff_plots/**/*.png
+!panelA_diff_plots/**/*.log
+!panelB_heatmap_pathway_plots/**/*.png
+!panelB_heatmap_pathway_plots/**/*.log
+!panelC_heatmap_LR_plots/**/*.png
+!panelC_heatmap_LR_plots/**/*.log
+
