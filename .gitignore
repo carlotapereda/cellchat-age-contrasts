@@ -11,7 +11,15 @@ Thumbs.db
 .vscode/
 .idea/
 
+
 # Keep these output folders ignored by default…
+# Generated outputs & logs
+# Generated outputs & logs
+# Ignore all PNG/PDF/LOG files by default
+*.png
+*.log
+
+# Ignore these directories...
 panelA_diff_plots/
 panelB_heatmap_pathway_plots/
 panelC_heatmap_LR_plots/
@@ -23,4 +31,19 @@ panelC_heatmap_LR_plots/
 !panelB_heatmap_pathway_plots/*.log
 !panelC_heatmap_LR_plots/*.png
 !panelC_heatmap_LR_plots/*.log
+
+
+# ...but DO track PNG, PDF, and LOG files inside them
+!panelA_diff_plots/*.png
+!panelA_diff_plots/*.pdf
+!panelA_diff_plots/*.log
+!panelB_heatmap_pathway_plots/*.png
+!panelB_heatmap_pathway_plots/*.pdf
+!panelB_heatmap_pathway_plots/*.log
+!panelC_heatmap_LR_plots/*.png
+!panelC_heatmap_LR_plots/*.pdf
+!panelC_heatmap_LR_plots/*.log
+
+# Temp
+*.tmp
 
