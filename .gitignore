@@ -1,0 +1,23 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated outputs & logs
+*.png
+*.pdf
+*.log
+panelA_diff_plots/
+panelB_heatmap_pathway_plots/
+panelC_heatmap_LR_plots/
+
+# Temp
+*.tmp
