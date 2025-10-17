@@ -1,7 +1,7 @@
 # R / RStudio
 .Rproj.user/
 .Rhistory
-.RData/
+.RData
 .Ruserdata
 *.Rproj
 
@@ -11,18 +11,18 @@ Thumbs.db
 .vscode/
 .idea/
 
+# --- OUTPUT DIRECTORIES ---
+# Ignore all contents inside these folders
+panelA_diff_plots/*
+panelB_heatmap_pathway_plots/*
+panelC_heatmap_LR_plots/*
 
-# Keep these output folders ignored by default…
-# Generated outputs & logs
-# Generated outputs & logs
-# Ignore all PNG/PDF/LOG files by default
-
-# Ignore these directories...
+# But keep the folders themselves
 !panelA_diff_plots/
 !panelB_heatmap_pathway_plots/
 !panelC_heatmap_LR_plots/
 
-# …but DO track PNG and log files directly in them (no subfolders)
+# And unignore PNG + LOG files directly inside them
 !panelA_diff_plots/*.png
 !panelA_diff_plots/*.log
 !panelB_heatmap_pathway_plots/*.png
@@ -30,18 +30,6 @@ Thumbs.db
 !panelC_heatmap_LR_plots/*.png
 !panelC_heatmap_LR_plots/*.log
 
-
-# ...but DO track PNG, PDF, and LOG files inside them
-!panelA_diff_plots/*.png
-!panelA_diff_plots/*.pdf
-!panelA_diff_plots/*.log
-!panelB_heatmap_pathway_plots/*.png
-!panelB_heatmap_pathway_plots/*.pdf
-!panelB_heatmap_pathway_plots/*.log
-!panelC_heatmap_LR_plots/*.png
-!panelC_heatmap_LR_plots/*.pdf
-!panelC_heatmap_LR_plots/*.log
-
-# Temp
+# Temp files
 *.tmp
 
