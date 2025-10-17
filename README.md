@@ -5,7 +5,7 @@ Last Edited: 10/17/2025
 Scripts and precomputed CellChat objects to compute pathway- and LR-level age contrasts
 across sex (F/M) and APOE genotype (E33/E44).
 
-![Workflow](./worklow.png)
+![Workflow](./workflow.png)
 
 ## Contents
 - `createCCObjs.R` — build CellChat objects (DB v2) by sex/age/genotype.
