@@ -16,13 +16,11 @@ Thumbs.db
 # Generated outputs & logs
 # Generated outputs & logs
 # Ignore all PNG/PDF/LOG files by default
-*.png
-*.log
 
 # Ignore these directories...
-panelA_diff_plots/
-panelB_heatmap_pathway_plots/
-panelC_heatmap_LR_plots/
+!panelA_diff_plots/
+!panelB_heatmap_pathway_plots/
+!panelC_heatmap_LR_plots/
 
 # …but DO track PNG and log files directly in them (no subfolders)
 !panelA_diff_plots/*.png
