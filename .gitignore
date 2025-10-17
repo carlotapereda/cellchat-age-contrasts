@@ -12,23 +12,14 @@ Thumbs.db
 .idea/
 
 # --- OUTPUT DIRECTORIES ---
-# Ignore all contents inside these folders
-panelA_diff_plots/*
-panelB_heatmap_pathway_plots/*
-panelC_heatmap_LR_plots/*
-
-# But keep the folders themselves
+# --- OUTPUT DIRECTORIES ---
+# Track all files in these folders
 !panelA_diff_plots/
+!panelA_diff_plots/**
 !panelB_heatmap_pathway_plots/
+!panelB_heatmap_pathway_plots/**
 !panelC_heatmap_LR_plots/
-
-# And unignore PNG + LOG files directly inside them
-!panelA_diff_plots/*.png
-!panelA_diff_plots/*.log
-!panelB_heatmap_pathway_plots/*.png
-!panelB_heatmap_pathway_plots/*.log
-!panelC_heatmap_LR_plots/*.png
-!panelC_heatmap_LR_plots/*.log
+!panelC_heatmap_LR_plots/**
 
 # Temp files
 *.tmp
